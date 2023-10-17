@@ -1,0 +1,26 @@
+#### in2o3
+1:co2-1
+2:co2-1-ov
+3:co2-2
+4:co2-2-ov
+5:cooh-1
+6:cooh-1-ov
+7:cooh-2
+8:cooh-2-ov
+9:ocho-1
+10:ocho-1-ov
+11:ocho-2
+12:ocho-2-ov
+13:hcooh-1
+14:hcooh-1-ov
+15:hcooh-2
+16:hcooh-2-ov
+17:h-1
+18:h-1-ov
+19:h-2
+20:h-2-ov
+
+####in2o3+in2o3
+21:ocho
+22:cooh
+23:h

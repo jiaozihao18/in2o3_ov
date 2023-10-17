@@ -1,0 +1,36 @@
+#### initial parameters I/O ####
+SYSTEM = in2o3
+NCORE = 16
+KPAR = 4
+ISTART = 1
+ICHARG = 1
+LWAVE = .F.
+LCHARG = .F.
+
+#### SCF ####
+ENCUT = 500      
+ISMEAR = 0
+SIGMA = 0.05
+EDIFF = 1E-6
+NELMIN = 5
+NELM = 300
+GGA = PE
+LREAL = Auto
+ALGO = Normal
+ISYM = 0
+
+#### Geo opt ####
+EDIFFG = -0.02
+IBRION = 2
+POTIM = 0.2
+NSW = 1
+ISIF = 2
+
+#### DFT + U ####
+LDAU = .TRUE.    # 开启DFT+U
+LDAUTYPE = 2     # +U的类型, 1|2|4; 2-默认值; U-J具有实际物理意义
+LDAUL = 2 -1     # 控制具体的原子轨道上加U; -1,不加U; 1,p轨道; 2,d轨道; 3,f轨道
+LDAUU = 5.0 0.0   # U值由LDAUU-LDAUJ确定
+LDAUJ = 0.0 0.0 
+LDAUPRINT = 0
+LMAXMIX = 4      # 对+U体系, 设置线性混合参数加速收敛, d轨道设为4, f轨道设为6
