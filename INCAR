@@ -23,7 +23,7 @@ ISYM = 0
 EDIFFG = -0.02
 IBRION = 2
 POTIM = 0.2
-NSW = 1
+NSW = 2000
 ISIF = 2
 
 #### DFT + U ####
